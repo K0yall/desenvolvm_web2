@@ -1,0 +1,32 @@
+p { 
+    color: whitesmoke;
+}
+li{
+    color: white;
+}
+
+p { font-family: Arial, Helvetica, sans-serif, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+
+body {
+    margin: 0;
+}
+        
+body {
+    position: static;
+    height: 120vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    background: url('https://i.ytimg.com/vi/b5WcBPu2lsY/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color:white;
+}

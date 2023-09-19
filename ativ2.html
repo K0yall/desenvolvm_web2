@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planos de turismo - Destinos</title>
+
+  <!-- Metadados -->
+  <meta name="description" content="Planos de turismo para todos os destinos.">
+  <meta name="keywords" content="turismo, viagem, planejamento, roteiro, pacote, pacotes, destinos">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="teste.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Onde ir nas Bahamas?</h1>
+    <nav>
+      <a style="color: chartreuse;" href="ativ.html">Início</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo -->
+  <main>
+    <section class="introducao">
+      <h2>Destinos populares</h2>
+      <li>Nassau</li>
+      <p>Com o maior porto das Bahamas, Nassau é ponto de parada da maioria dos cruzeiros curtos que saem de Miami.</p>
+      <br>
+      <li>Bimini</li>
+      <p>Bimini é a ilha das Bahamas mais próxima dos Estados Unidos. Fica a 80 km de Miami em um trajeto de duas horas.
+      </p>
+      <br>
+      <li>CocoCay</li>
+      <p>Esta é a ilha privada destinada a penas aos passageiros da Royal Caribbean. Ou seja, apenas os cruzeiros das
+        companhias podem descer na ilha.</p>
+      <br>
+      <li>Grand Bahama Island</li>
+      <p>É a segunda ilha mais populosa das Bahamas. Na cidade portuária de Freeport, chegam alguns dos cruzeiros que
+        saem de Miami.</p>
+    </section>
+  </main>
+</body>
+<main>
+  <p>Viajar para as Bahamas é uma conquista a ser alcançada e <span style="color: chartreuse"><strong>VOCÊ</strong></span> pode ser o próximo a realizar esse sonho!<br>
+    Logo a baixo há um formulário para saber se você tem interesse em paraticipar desta maravilhosa viagem.</p>
+  <form>
+    <label style="color: white;" for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+    <br>
+    <label style="color: white;" for="email">E-mail:</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <label style="color: white;" for="telefone">Telefone:</label>
+    <input type="text" id="telefone" placeholder="(47) 99999-9999"
+      pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+      title="Número de telefone precisa ser no formato (99) 9999-9999">
+    <p>Possui alguma experiência com viagens internacionais?</p>
+    <input type="radio" name="nivel" id="nunca"> <label style="color: white;" for="nunca">Nunca viajei para fora do país.</label>
+    <input type="radio" name="nivel" id="pouco"> <label style="color: white;" for="inicio">Só viagens para países próximos.</label>
+    <input type="radio" name="nivel" id="medio"> <label style="color: white;" for="medio">Já morei fora do país por algum tempo.</label>
+    <input type="radio" name="nivel" id="avancado"> <label style="color: white;" for="avancado">Já visitei Bahamas antes.</label>
+    <p>Qual dia gostaria de começar o voo?</p>
+    <input type="checkbox" name="dias" id="segunda"> <label style="color: white;" for="segunda">Segunda-Feira</label>
+    <input type="checkbox" name="dias" id="terca"> <label style="color: white;" for="terca">Terça-Feira</label>
+    <input type="checkbox" name="dias" id="quarta"> <label style="color: white;" for="quarta">Quarta-Feira</label>
+    <input type="checkbox" name="dias" id="quinta"> <label style="color: white;" for="quinta">Quinta-Feira</label>
+    <input type="checkbox" name="dias" id="sexta"> <label style="color: white;" for="sexta">Sexta-Feira</label>
+    <input type="checkbox" name="dias" id="sabado"> <label style="color: white;" for="sabado">Sábado</label>
+    <input type="checkbox" name="dias" id="domingo"> <label style="color: white;" for="domingo">Domingo</label>
+    <br>
+    <p>Por qual motivo você se interessa em viajar para as Bahamas?</p>
+    <textarea id="motivo" placeholder="Relaxar e curtir as praias paradisíacas" rows="8"
+      cols="50"></textarea>
+    <br><br>
+    <button type="submit"><span style="color:#008000">ENVIAR</span></button>&nbsp;
+    <button type="reset"><span style="color:#FF0000">LIMPAR</span></button>
+  </form>
+</main>
+
+</html>
